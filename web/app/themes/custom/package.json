@@ -37,7 +37,12 @@
     "node": ">= 8.0.0"
   },
   "devDependencies": {
+    "@babel/core": "~7.7.2",
+    "@babel/plugin-syntax-dynamic-import": "~7.2.0",
+    "@babel/preset-env": "~7.7.1",
     "autoprefixer": "^10.0.1",
+    "babel-eslint": "~10.0.3",
+    "babel-loader": "~8.0.6",
     "browser-sync": "^2.26.13",
     "browsersync-webpack-plugin": "^0.6.0",
     "bs-html-injector": "~3.0",
