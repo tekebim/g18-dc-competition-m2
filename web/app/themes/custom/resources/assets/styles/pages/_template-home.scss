@@ -1,0 +1,49 @@
+.template-home {
+  .hero {
+    height: 615px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../images/illustration-home-hero.svg');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+  }
+
+  .search-offers {
+    background-color: theme-color("color-blue");
+    padding: 112px;
+
+    &__title {
+      font-size: 40px;
+      color: #fff;
+      margin-bottom: 72px;
+    }
+  }
+
+  .recruiters-highlight {
+    &__title {
+      color: theme-color("color-orange");
+      font-size: 30px;
+    }
+
+    padding: 130px;
+  }
+
+  .quizz {
+    background-color: theme-color("color-orange");
+    padding: 105px 0;
+
+    &__illustration {
+      background-image: url('../../images/illustration-home-quizz.svg');
+      background-position: bottom left;
+      background-repeat: no-repeat;
+      height: 100%;
+      border: 2px solid black;
+    }
+
+    &__content {
+      max-width: 365px;
+      width: 365px;
+    }
+  }
+}
