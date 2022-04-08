@@ -1,1 +1,6 @@
 @import "template-home";
+
+.page {
+  background-color: theme-color("primary");
+  font-family: "GraphikWeb", sans-serif;
+}
